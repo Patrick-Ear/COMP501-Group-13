@@ -1,13 +1,16 @@
-  body {
-   padding-left: 12em;
-   font-family: Georgia, "Times New Roman",
-          Times, serif;
-		  color: gold;
-   .simple-linear
-{
-    backgroud: linear-gradient(blue, pink);
+body {
+    padding-left: 12em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: gold;
+    background: black ;
+
+    }
+
+.horizontal {
+    background: linear-gradient(to right, black,#000066);
 }
-                 }
+  
+
 	 ul.navbar {
     list-style-type: circle;
     padding: 0;
