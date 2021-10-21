@@ -102,6 +102,7 @@ img {
 	width: 75%;
 	max-width: 100%;
 	height: auto;
+	border-radius: 32px;
 }
 
 .text {
