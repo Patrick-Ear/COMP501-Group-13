@@ -1,37 +1,121 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
-    <ul class="navbar">
-        <li><a href="../index.html">Home page</a>
-        <li><a href="topic.html">Technology/Topic</a>
-        <li><a href="opportunities.html">Opportunities</a>
-        <li><a href="misc/risks.html">Risks</a>
-        <li><a href="choices.html">Choices</a>
-        <li><a href="ethics.html">Ethical Reflections</a>
-        <li><a href="references.html">References</a>
-        <li><a href="process.html">Process Support</a>
-    </ul>
+
     <title>risks</title>
-    <link rel="stylesheet" href="../styles/mystyles.css">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
-    <body>
-        <img src="../images/csg4ed-small.png" alt="Enhancing Social Good in Computing"
-        <!-- Site navigation menu -->
 
+<body>
 
+    <div class="navbar">
+        <ul>
+            <li><a href="topic.html">Home</a></li>
 
-        <!-- Main content -->
-        <h1>Technology Risks</h1>
+            <li>
+                <a href="#">Topics</a>
+                <ul>
+                    <li><a href="opportunities.html">Opportunities</a></li>
+                    <li><a href="risks.html">Risks</a></li>
+                    <li><a href="choices.html">Choices</a>
+                </ul>
+            </li>
 
+            <li><a href="ethics.html">Ethical</a></li>
 
-        </ul><h4><p>The risks of Face ID.<p></h4>
+            <li>
+                <a href="#">More</a>
+                <ul>
+                    <li><a href="references.html">References</a></li>
+                    <li><a href="process.html">Process Support</a>
+                </ul>
+            </li>
 
-        <!-- Sign and date the page, it's only polite! -->
+        </ul>
+    </div>
+
+    <div class='container'>
+    <!-- Main content -->
+    <h1 class='title'> Risks in Facial Recognition</h1>
+
+    </ul>
+
+    <h2 class='title'>
+        The technology is not mature
+    </h2>
+
+        <p class='text'>
+            So far, facial recognition technology is imperfect. The technique is accurate only if the lighting and positioning are consistent and the facial features of the person being examined are clear.
+            Unfortunately, in the actual deployment of this technology, accuracy is often much lower than expected (Grother et al., 2021). In FRVT tests,
+            for example, an advanced algorithm's error rate went from 0.1 percent for high-quality photos to 9.3 percent for personal photos taken in the field. This could be because the subject was not looking directly at the camera,
+            or because the subject was being looked at by other objects while filming. As people grow older, their appearance will also change. As time goes by,
+            the difference between their appearance and the pictures registered in the computer will become larger and larger, which will also increase the recognition error of the face recognition system,
+            because it is difficult for the computer to match the pictures taken after many years. In NIST's frvt study, it was found that when trying to match a photo taken 18 years ago, the error rate of the algorithm increased almost 10 times(Grother et al., 2019)!
+        </p>
+
+        <p class='text'>
+            When we apply the face recognition technology, by considering the face recognition algorithm in the surveillance video detection,
+            we can clearly understand the defects of the face recognition technology and it is too sensitive to external factors.
+            In NIST's video detection in 2017 (Grother et al., 2017), they used the new algorithm of this technology (FIVE) to apply the airport gate to the stadium and other crowded environments.
+            In this test, the researchers found that when boarding is detected When speaking, the error rate of face recognition technology is the lowest, because the boarding gate is a relatively stable environment,
+            which leads to his accuracy rate of 94.4%. In contrast, the accuracy of this algorithm is reduced to 36% to 87% in noisy stadiums.
+        </p>
+
+        <p class='text'>
+
+            The FIVE results also demonstrate another major issue with facial recognition accuracy the wide variation between vendors.
+            Though one top algorithm achieved 87% accuracy at the sporting venue, the median algorithm achieved just 40% accuracy working off imagery from the same camera.
+            (Grother et al., 2017) NIST¡¯s tests on image verification algorithms found that many facial recognition providers on the market may have error rates several orders of magnitude higher than the leaders.
+            Though some vendors have constructed highly accurate facial recognition algorithms, the average provider on the market still struggles to achieve similar reliability, and even the best algorithms are highly sensitive to external factors.
+            According to NIST, this large accuracy range between vendors ¡°indicates that face recognition software is far from being commoditized.
+        </p>
+
+        <h2 class='title'>
+            The trouble this technology brings to people
+        </h2>
+
+        <p class='text'>
+            Facial recognition technology has inspired widespread anxiety due to its potential for misuse (Grother et al., 2017).
+            Understanding the reality of how accuracy affects these risks is crucial for policy makers trying to develop protections for their citizens while retaining the benefits that the technology may bring.
+            For some privacy-conscious individuals, this technology is a serious disruption to their normal lives.
+            This has led to the technology remaining unpopular with many people. However, compared with fingerprint recognition, which must collect fingerprint information, face recognition is not mandatory.
+            It does not require the subject to actively provide any information, if you show your face, it can recognize you inadvertently
+        </p>
+
+        <p class='text'>
+
+            Measures to prevent misidentification are always important, as facial recognition will never be 100% accurate (Crumpler, 2020).
+            These protections are particularly important today, as many providers still do not have systems that operate at extremely high accuracy rates, and even the best algorithms struggle in more challenging real-world environments.
+            Increasingly, however, the risks of facial recognition come not from situations where the technology fails, but from situations where it succeeds.
+            The unrestricted use of facial recognition technology in public spaces could allow for unprecedented collection of data on individual behaviour and movement, creating opportunities for economic exploitation, political manipulation, discrimination and more.
+            However, if properly managed, facial recognition technology can also provide significant benefits for security and accessibility. Policymakers are now faced with the question of how to balance these benefits for the benefit of citizens,
+            but first they must understand the true advantages, disadvantages, and potential of facial recognition systems.
+        </p>
+
+        <p class='text'>
+
+            Facial recognition is considered to be one of the most difficult research topics in the field of biometrics and even in the field of artificial intelligence.
+            The difficulty of facial recognition is mainly caused by the characteristics of the face as a biological feature. There is little difference between individuals with different similarities.
+            All facial structures are similar, and even the structural appearance of facial organs is very similar. Such features are advantageous for localisation using faces, but disadvantageous for using faces to distinguish between individual humans.
+            The appearance of a variable human face is very unstable. People can produce many expressions through changes in their faces. The visual image of a face is also very different under different viewing angles.
+            In addition, face recognition is influenced by lighting conditions (e.g. day and night, indoors and outdoors, etc.), many facial coverings (e.g. masks, sunglasses, hair, beards, etc.), age and other factors.
+            A face image or video is, in a broad sense, data. If stored and used improperly, it can easily violate user privacy." In the age of information explosion, a great deal of data processing, analysis and application is achieved through algorithms,
+            which increasingly replace decision-making. Thus, if we calculate the law. Therefore, the application of face recognition in the financial payment industry still carries certain risks.
+
+        </p>
+    </div>
+    <!-- Sign and date the page, it's only polite! -->
+
+    <div class='footer'>
         <address>
-            Made 07/10/2021<br>
+            Made 21/10/2021<br>
             by Yuhan Mu.
         </address>
 
-        <p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
-        <p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em
+        <p><em>Thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
+        <p><em>Thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em
+        <p><em>Thanks to Corelangs for CSS resources and any adapted code snippets from <a href="http://www.corelangs.com/">Corelangs</a></p></em
+    </div>
+
+</body>
 </html>
