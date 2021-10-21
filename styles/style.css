@@ -100,6 +100,12 @@ caption {
     padding: 10px;
 }
 
+.references {
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+}
+
 .title {
     text-align: left;
 }
