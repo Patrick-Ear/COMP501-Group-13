@@ -37,8 +37,6 @@ a:hover {
     box-shadow: 0 0 10px #ccc;
 	background: white;
 	color: rgba(2,0,36,1);
-
-	
 }
 ul li ul {
 	background: rgba(2,0,36,1);
@@ -55,7 +53,7 @@ ul li ul li{
 .text {
 	margin: 10px;
     text-align: left;  
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
 }
 
@@ -66,7 +64,8 @@ ul li ul li{
 }
 
 .container {
-	
+	margin-left: 384px;
+	margin-right: 384px;
 }
 
 .footer {
