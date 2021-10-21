@@ -4,9 +4,7 @@ body {
     color: gold;
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,23,121,1) 0%, rgba(2,0,36,1) 56%);
 }
-
   
-
 	 ul.navbar {
     list-style-type: circle;
     padding: 0;
